@@ -12,9 +12,11 @@ A collection of brain compiuter interface protptypes done with the muse 2 headba
 <br>
 
 ## Detecting raw artifacts
+<br>
 
-![8 1](https://github.com/user-attachments/assets/c0f14946-3532-4dce-8cf6-2069423d8aa1)
+![8](https://github.com/user-attachments/assets/803653ec-117c-460e-ad4e-7ffd6b040bdb)
 
+<br>
 Prototyped a real-time EEG signal visualization system using the Muse 2 headset to explore raw neural data streams and identify viable input patterns. The implementation captures live EEG data across all available channels and renders them in a continuous scrolling display, allowing for immediate observation of various neural artifacts and noise patterns. 
 
 During testing, I discovered that while most EEG signals contain significant artifacts and environmental noise, eye blinks consistently produced the cleanest and most distinguishable signal spikes across the channels. This observation led to the realization that blink detection could serve as a reliable, intentional input mechanism that operates alongside traditional EEG brainwave analysis.
@@ -28,7 +30,11 @@ This  feels intuitive because blinking is already a natural, frequent action
 
 ## Controlling an orb with the mind
 
+<br>
+
 ![orb](https://github.com/user-attachments/assets/e965830f-0201-4b48-ac08-e6e4cb951cb6)
+
+<br>
 
 Inspired by the innitial control, I prototyped a Unity-based interface that transforms EEG mental states into real-time 3D visual feedback using the Muse headset. The system connects the Python BrainFlow server to Unity via UDP, enabling users to control a glowing orb through intentional double-blinks and passive mental state monitoring. Double-blinks toggle the orb's power state while focus and calm mental states dynamically adjust the orb's size, color, and rotation speed.
 
