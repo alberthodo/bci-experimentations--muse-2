@@ -1,0 +1,6 @@
+# BCI Control System Requirements
+brainflow
+numpy
+scipy
+matplotlib
+# Note: tkinter usually comes with Python installation
