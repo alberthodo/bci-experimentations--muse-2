@@ -13,8 +13,6 @@ A collection of brain compiuter interface protptypes done with the muse 2 headba
 
 ## Detecting raw artifacts
 
-
-
 ![8 1](https://github.com/user-attachments/assets/c0f14946-3532-4dce-8cf6-2069423d8aa1)
 
 Prototyped a real-time EEG signal visualization system using the Muse 2 headset to explore raw neural data streams and identify viable input patterns. The implementation captures live EEG data across all available channels and renders them in a continuous scrolling display, allowing for immediate observation of various neural artifacts and noise patterns. During testing, I discovered that while most EEG signals contain significant artifacts and environmental noise, eye blinks consistently produced the cleanest and most distinguishable signal spikes across the channels. This observation led to the realization that blink detection could serve as a reliable, intentional input mechanism that operates alongside traditional EEG brainwave analysis.
