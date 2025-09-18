@@ -23,3 +23,13 @@ During testing, I discovered that while most EEG signals contain significan
 The clarity and consistency of blink artifacts in the EEG stream opens up compelling possibilities for hybrid brain-computer interfaces that combine voluntary motor actions with passive neural monitoring. Similar to how Apple's Vision Pro leverages eye-tracking as a selection mechanism paired with hand gestures for confirmation, blink detection could provide a natural, low-latency input method that users can consciously control without the complexity of training machine learning models on subtle brainwave patterns. 
 
 This  feels intuitive because blinking is already a natural, frequent action that can be easily modulated in timing and intensity, potentially enabling applications ranging from assistive technology interfaces to gaming controls where users maintain the familiarity of intentional physical input while benefiting from the seamless, contactless nature of neural sensing.
+
+<br>
+
+## Controlling an orb with the mind
+
+![orb](https://github.com/user-attachments/assets/e965830f-0201-4b48-ac08-e6e4cb951cb6)
+
+Inspired by the innitial control, I prototyped a Unity-based interface that transforms EEG mental states into real-time 3D visual feedback using the Muse headset. The system connects the Python BrainFlow server to Unity via UDP, enabling users to control a glowing orb through intentional double-blinks and passive mental state monitoring. Double-blinks toggle the orb's power state while focus and calm mental states dynamically adjust the orb's size, color, and rotation speed.
+
+The experience demonstrates intuitive neural control by mapping natural mental states to compelling visual responses—focused attention makes the orb grow larger and spin faster, while a calm mind reduces its size and slows rotation. Double blink toggles on the orbs light. This creates an immediate feedback loop where users can observe their mental state changes in real-time, similar to biofeedback systems but with the engaging, immersive quality of interactive 3D graphics that feels both meditative and empowering.
