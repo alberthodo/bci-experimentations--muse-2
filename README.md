@@ -5,7 +5,7 @@ A collection of brain compiuter interface protptypes done with the muse 2 headba
 - Detect raw artifacts
 - ML based mental state tracker
 - Mind controlled Orb with blinks and thoughts
-- Music player controlled with thought
+- Controlling a music player with bio-feedback
 
 
 
@@ -39,3 +39,18 @@ This  feels intuitive because blinking is already a natural, frequent action
 Inspired by the innitial control, I prototyped a Unity-based interface that transforms EEG mental states into real-time 3D visual feedback using the Muse headset. The system connects the Python BrainFlow server to Unity via UDP, enabling users to control a glowing orb through intentional double-blinks and passive mental state monitoring. Double-blinks toggle the orb's power state while focus and calm mental states dynamically adjust the orb's size, color, and rotation speed.
 
 The experience demonstrates intuitive neural control by mapping natural mental states to compelling visual responses. Focused attention makes the orb grow larger and spin faster, while a calm mind reduces its size and slows rotation. Double blink toggles on the orbs light. This creates an immediate feedback loop where users can observe their mental state changes in real-time, similar to biofeedback systems but with the engaging, immersive quality of interactive 3D graphics that feels both meditative and empowering.
+
+<br>
+
+## Controlling a music player with bio-feedback
+
+<br>
+
+Prototyped a music player control system using the Muse headset, a low cost consumer EEG device, specifically designed for quadruplegic patients to regain independent music control. Given the Muse's accessibility compared to clinical-grade EEG equipment, I developed a robust interface that combines intentional muscle artifacts, distinguishing jaw clenches from eye blinks, with passive mental state detection (focused vs. relaxed) to create reliable input commands. This hybrid approach addresses the Muse's inherent signal limitations while providing users meaningful autonomy over their audio experience.
+
+<br>
+
+![cnb](https://github.com/user-attachments/assets/84ede4ba-9112-4fa9-8c30-222f3c9f9357)
+
+
+<br>
